@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DropBox</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -12,20 +13,18 @@
 </head>
 <body>
     <header>
-        <div class="head">
-    <div class="main-nav">
-         <img src="img/logo-small.png" alt="">
-         <div class="row row-1">
-            <a href="">Perchè Dropbox?</a>
-            <a href="">Funzioni</a>
-            <a href="">Piani e prezzi</a>
+    <div class="head">
+        <div class="main-nav-left">
+            <img src="img/logo-small.png" alt="">
+                <a class="link" href="">Perchè Dropbox?</a>
+                <a class="link" href="">Funzioni</a>
+                <a class="link" href="">Piani e prezzi</a>       
         </div>
-         <div class="row row-2">
-            <a href="">Supporto</a>
-            <a href="">Contatta l'ufficio vendite</a>
-            <a href="">Accedi</a>
+        <div class="main-nav-right">
+            <a class="link" href="">Supporto</a>
+            <a class="link" href="">Contatta l'ufficio vendite</a>
+            <a class="link" href="">Accedi</a>
             <button class="button-structure button-main-nav"> Inizia</button>
-        </div>
         </div>
     </div>
 
@@ -52,13 +51,71 @@
                     <div class="product-list">
                         <div class="clearfix">
                             <div class="col">
-                                <h3>Singolo</h3>
-
+                                <p class="target"><i class="fa-regular fa-user"></i> Singolo</p>
+                                <h3 class=" grade text-align">Professional</h3>
+                                <h4 class=" price text-align">19.99€</h4>
+                                <p class="time text-align">/mese</p>
+                                <div class="row-col">
+                                    <p><i class="fa-regular fa-user"></i> 1 utente</p>
+                                    <p><i class="fa-regular fa-folder"></i> 3TB di spazio di archiviazione sicuro</p>
+                                    <p><i class="fa-solid fa-pen"></i> Funzione di produttivita premium e condivisione file semplice e sicura</p>
+                                    <button class="button-col button-structure">Prova gratis per 30 giorni!</button>
+                                    <p class="buy">oppure <a href="acquista ora">acquista ora</a></p>
+                                    <hr>
+                                    <h3 class="info text-align">Punti salienti del piano</h3>
+                                    <ul class=" list text-align">
+                                        <li><i class="arrow fa-solid fa-check"></i> Ipsie Dixit</li>
+                                        <li><i class="arrow fa-solid fa-check"></i> Ipsie Dixit</li>
+                                        <li><i class="arrow fa-solid fa-check"></i> Ipsie Dixit</li>
+                                        <li><i class="arrow fa-solid fa-check"></i> Ipsie Dixit</li>
+                                        <li><i class="arrow fa-solid fa-check"></i> Ipsie Dixit</li>
+                                    </ul>
+                                </div>
                             </div>
                             <div class="col">
-
+                                <p class="target"><i class="fa-regular fa-building"></i> Team</p>
+                                <h3 class=" grade text-align">Standard</h3>
+                                <h4 class=" price text-align">19.99€</h4>
+                                <p class="time text-align">/utente/mese, a partire da 3 utenti</p>
+                                <div class="row-col">
+                                    <p><i class="fa-solid fa-user-plus"></i> 1 utente</p>
+                                    <p><i class="fa-regular fa-folder"></i> 3TB di spazio di archiviazione sicuro</p>
+                                    <p><i class="fa-regular fa-face-smile"></i> Funzione di produttivita premium e condivisione file semplice e sicura</p>
+                                    <button class="button-col button-structure">Prova gratis per 30 giorni!</button>
+                                    <p class="buy">oppure <a href="acquista ora">acquista ora</a></p>
+                                    <hr>
+                                    <h3 class="info text-align">Punti salienti del piano</h3>
+                                    <ul class=" list text-align">
+                                        <li><i class="arrow fa-solid fa-check"></i> Ipsie Dixit</li>
+                                        <li><i class="arrow fa-solid fa-check"></i> Ipsie Dixit</li>
+                                        <li><i class="arrow fa-solid fa-check"></i> Ipsie Dixit</li>
+                                        <li><i class="arrow fa-solid fa-check"></i> Ipsie Dixit</li>
+                                        <li><i class="arrow fa-solid fa-check"></i> Ipsie Dixit</li>
+                                    </ul>
+                                </div>
+                                
                             </div>
-                            <div class="col">     
+                            <div class="col">
+                                <p class="target"><i class="fa-regular fa-building"></i> Team</p>
+                                <h3 class=" grade text-align">Advanced</h3>
+                                <h4 class=" price text-align">19.99€</h4>
+                                <p class="time text-align">/utente/mese, a partire da 3 utenti</p>
+                                <div class="row-col">
+                                    <p><i class="fa-solid fa-user-plus"></i> 1 utente</p>
+                                    <p><i class="fa-regular fa-face-smile"></i> 3TB di spazio di archiviazione sicuro</p>
+                                    <p><i class="fa-solid fa-pen"></i> Funzione di produttivita premium e condivisione file semplice e sicura</p>
+                                    <button class="button-col button-structure">Prova gratis per 30 giorni!</button>
+                                    <p class="buy">oppure <a href="acquista ora">acquista ora</a></p>
+                                    <hr>
+                                    <h3 class="info text-align">Punti salienti del piano</h3>
+                                    <ul class=" list text-align">
+                                        <li><i class="arrow fa-solid fa-check"></i> Ipsie Dixit</li>
+                                        <li><i class="arrow fa-solid fa-check"></i> Ipsie Dixit</li>
+                                        <li><i class="arrow fa-solid fa-check"></i> Ipsie Dixit</li>
+                                        <li><i class="arrow fa-solid fa-check"></i> Ipsie Dixit</li>
+                                        <li><i class="arrow fa-solid fa-check"></i> Ipsie Dixit</li>
+                                    </ul>
+                                </div>
                             </div>
                         </div>
                     </div>   
