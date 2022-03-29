@@ -224,3 +224,15 @@ hr{
 .option-col{
     border: none;
 }
+.partners-col1{
+    width: 30vw;
+}
+.partners-col2{
+    width: 40vw;
+    height: 40vw;
+    background-color:gainsboro ;
+}
+.partner-col3{
+    width: 30vw;
+
+}
