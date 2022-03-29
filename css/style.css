@@ -172,6 +172,10 @@ hr{
     font-size: 15px;
 }
 .col-bottom{
-    width: calc(100% / 1- 10px);
+    width: 100%;
     border: 1px solid gainsboro;
+    margin: 0 10px;
+}
+.col-bottom h3{
+    font-size: 30px;
 }
