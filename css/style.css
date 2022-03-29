@@ -10,6 +10,11 @@
     display: table;
     clear: both;
 }
+.maring-fix{
+    width: calc(100% - 20px);
+    margin: 0 10px; 
+}
+
 .head{
     width: 100%;
     background-color: white;
@@ -52,7 +57,7 @@ margin-left: 15px;
     width: 100%;
     background-color: rgb(180, 208, 230);
 }
-.hero-container{
+.big-container{
     width: 1300px;
     margin: auto;
 }
@@ -89,12 +94,12 @@ margin-left: 15px;
     font-size: 18px;
     padding-top: 10px;
 }
-.product{
+.small-container{
     padding-top: 80px;
     margin: auto;
     width: 1080px;
 }
-.product h2{
+ h2{
     font-size: 50px;
 }
 .payment p {
@@ -120,6 +125,7 @@ margin-left: 15px;
     width:calc(100% / 3 - 20px);
     margin-top: 30px;
     border: 1px solid gainsboro;
+    padding-bottom: 30px;
 }
 .target{
     text-align: center;
@@ -172,10 +178,49 @@ hr{
     font-size: 15px;
 }
 .col-bottom{
-    width: 100%;
+    width: calc(100% - 20px);
     border: 1px solid gainsboro;
     margin: 0 10px;
+    margin-top: 50px;
 }
-.col-bottom h3{
-    font-size: 30px;
+.col-big-left{
+    float: left;
+    width: 70%;
+    margin-bottom: 30px; 
+}
+.col-big-button{
+    padding: 10px 60px 10px 60px;
+}
+.col-big-right{
+    float: left;
+    width: 30%;
+    margin-top: 25px;
+}
+.partner-col-right{
+    width: 50%;
+    float: left;
+
+}
+.partner-col-left{
+    width: 50%;
+    float: left;
+}
+.partner-col-right img{
+    width: 100%;
+}
+.partner-button{
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    padding: 10px 20px 10px 20px;
+}
+.option-col h3{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.option-col-img{
+    width: 90%;
+}
+.option-col{
+    border: none;
 }
