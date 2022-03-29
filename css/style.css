@@ -8,33 +8,31 @@
 .clearfix::after{
     content: "";
     display: table;
-    margin: auto;
+    box-sizing: border-box;
 }
 .head{
-    background-color: white;
-    max-width: 100%;
-    height: 60px;
-    position: fixed;
-    padding-top:20px;
     width: 100%;
     background-color: white;
+    position: fixed;
     z-index: 10;
-    padding-bottom: 30px;
+    height: 70px;
+    line-height: 70px;
+    padding: 0 20px;
 }
-.main-nav-left img{ 
-    vertical-align: middle;
-    padding-left: 50px;
+.col-main-nav-left{
+    float: left;
+    width: 50%;
+
+}
+.col-main-nav-right{
+    float:left;
+    width: 50%;
+    text-align: right;
 }
 
-.main-nav-right{
-    position: absolute;
-    top: 25%;
-    right: 3%;
-}
 .link{
-   vertical-align: middle;
+margin-left: 15px;
    font-size: 18px;
-   margin-left: 25px;
    text-decoration: none;
    color: black;
 }
@@ -50,30 +48,28 @@
     margin-left: 45px;
 }
 .hero{
+    padding-top:100px;
     width: 100%;
-    height: 800px;
     background-color: rgb(180, 208, 230);
 }
+.hero-container{
+    width: 1300px;
+    margin: auto;
+}
+.hero-col-left{
+    float: left;
+    width: 50%;
+    height: 800px;
+}
+.hero-col-right{
+    float: right;
+    width: 50%;
+
+}
 .hero h1{
-    width: 100%;
     font-size: 70px;
-    padding-top: 80px;
-    margin-left: 90px;
 }
-.hero img{
-    position: absolute;
-    width: 1100px;
-    height: 650px;
-    right: 10%;
-    top: 40%;
-    
-}
-.hero p{
-    font-size: 25px;
-    margin-left: 100px;
-    padding-top: 100px;
-    width: 400px;
-}
+
 .button-hero{
     margin-top: 20px;
     margin-left: 100px;
@@ -90,7 +86,7 @@
 }
 .product h2{
     font-size: 50px;
-    margin-top: 200px;
+    margin-top: 250px;
     padding-left: 200px;
 }
 .payment p {
@@ -107,6 +103,8 @@
 }
 .not-checked{
     margin-left: 20px;
+    width: 20px;
+    height: 20px;
 }
 .col{
     float: left;
